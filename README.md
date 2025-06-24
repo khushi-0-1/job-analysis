@@ -1,4 +1,4 @@
-# Data Analyst Job Postings (SQL Based)
+# Job Analysis (SQL Based)
 
 A SQL-based data analysis project focused on job postings for Data Analyst roles in the U.S. market. This project explores trends in pay, skills, and job benefits using real-world data and PostgreSQL.
 
@@ -13,7 +13,7 @@ A SQL-based data analysis project focused on job postings for Data Analyst roles
 ## 📊 Dataset Overview
 
 - **Original Dataset Creator**: [Luke Barousse](https://www.kaggle.com/lukebarousse)
-- **Title**: *Data Analyst Job Postings [Pay, Skills, Benefits]*
+- **Title**: *Job Analysis [Pay, Skills, Benefits]*
 - **Source**: Kaggle  
 - **Data Source**: Job listings scraped from Google Jobs
 
@@ -39,8 +39,10 @@ Analyze job postings to uncover:
 
 ## 📂 Project Structure
 
-├── source_data/           # CSV data files split by quarter
-├── sql_analysis.md        # Markdown file with all SQL questions & answers
-├── build_tables.sql       # SQL file to create and populate tables
-├── docker-compose.yaml    # PostgreSQL container setup
-├── README.md              # Project documentation
+job-analysis/
+├── source_data/ # CSV data files split by quarter
+├── sql_analysis.md # Markdown file with all SQL questions & answers
+├── build_tables.sql # SQL file to create and populate tables
+├── docker-compose.yaml # PostgreSQL container setup
+└── README.md # Project documentation
+
