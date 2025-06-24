@@ -37,12 +37,3 @@ Analyze job postings to uncover:
 
 
 
-## 📂 Project Structure
-
-job-analysis/
-├── source_data/ # CSV data files split by quarter
-├── sql_analysis.md # Markdown file with all SQL questions & answers
-├── build_tables.sql # SQL file to create and populate tables
-├── docker-compose.yaml # PostgreSQL container setup
-└── README.md # Project documentation
-
